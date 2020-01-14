@@ -6,6 +6,9 @@
     <el-form-item label="密码">
       <el-input type="password" v-model="loginUser.passwd" placeholder="请输入密码" show-password></el-input>
     </el-form-item>
+    <el-form-item>
+     <el-button type="success">登录</el-button>
+    </el-form-item>
   </el-form>
 </template>
 
